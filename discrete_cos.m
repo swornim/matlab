@@ -1,0 +1,12 @@
+clc;
+close all;
+clear;
+a = 5;
+f = 3;
+t = 0:0.01:1;
+x = a * cos(2*pi*f*t);
+stem(t,x);
+xlabel('time');
+ylabel('amplitude');
+title('discrete cos/swornim/036');
+grid on;
